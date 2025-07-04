@@ -13,10 +13,10 @@ GameObject:
   - component: {fileID: 2500640602348056727}
   - component: {fileID: 4412661679372711731}
   - component: {fileID: 770386306200630474}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: AutomaticRifle
   m_TagString: Untagged
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -28,9 +28,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2853218080009296719}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.13088349, z: -0, w: 0.9913978}
+  m_LocalRotation: {x: 0, y: -0.13088085, z: 0, w: 0.99139816}
   m_LocalPosition: {x: -91.477, y: 1.3, z: 104.687}
-  m_LocalScale: {x: 0.14006445, y: 0.12664284, z: 1.1060518}
+  m_LocalScale: {x: 0.14006446, y: 0.12664284, z: 1.1060518}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4487297228491127211}
@@ -61,10 +61,13 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c8380459161599c46b096dba429509d3, type: 2}
+  - {fileID: 2100000, guid: b865a31f0860e7f4ab8e8d5f67b0b6c3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -105,8 +108,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2, y: 2, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 4.5858517, y: 2.6386797, z: 1}
+  m_Center: {x: 0.2733039, y: -0.052575305, z: -8.2376717e-10}
 --- !u!114 &770386306200630474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119,22 +122,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff896ec865904be40931040155da4ff6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireType: 0
+  fireType: 1
   weaponName: Temor
   damage: 1
   range: 20
-  fireRate: 10
-  accuracy: 2
-  timeToReload: 2
-  currentAmmo: 200
-  currentMaxAmmo: 200
+  fireRate: 3
+  accuracy: 0
+  timeToReload: 0.5
+  currentAmmo: 1000
+  currentMaxAmmo: 1000
   ammo: 1000
   maxAmmo: 1000
   nextFireTime: 0
   isReloading: 0
   shootPoint: {fileID: 4487297228491127211}
-  smookeEffect: {fileID: 8064144836028225015, guid: 629e6676d5b5e3c4580285902788b64b,
-    type: 3}
+  smookeEffect: {fileID: 8064144836028225015, guid: 629e6676d5b5e3c4580285902788b64b, type: 3}
   ammoText: {fileID: 0}
 --- !u!1 &5975166233996820425
 GameObject:
@@ -145,7 +147,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4487297228491127211}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PointShoot
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
