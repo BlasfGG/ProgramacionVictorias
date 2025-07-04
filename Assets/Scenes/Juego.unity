@@ -58708,7 +58708,7 @@ GameObject:
   - component: {fileID: 1845072157}
   - component: {fileID: 1845072156}
   - component: {fileID: 1845072155}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Piso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67151,7 +67151,7 @@ Transform:
   m_GameObject: {fileID: 5652256307667382354}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.603, z: 0}
+  m_LocalPosition: {x: 0, y: -0.488, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -67484,7 +67484,7 @@ MonoBehaviour:
   detectionRange: 30
   weaponLayer:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 64
   ammoText: {fileID: 1197830702}
   pointray: {fileID: 5917735027804138980}
   audioSource: {fileID: 1329550555823679741}
@@ -67648,7 +67648,7 @@ MonoBehaviour:
   jump: 3
   groundMask:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 256
   groundCheck: {fileID: 698447980808421114}
   controller: {fileID: 6558920254188222691}
 --- !u!4 &2957502639556844930
@@ -67660,7 +67660,7 @@ Transform:
   m_GameObject: {fileID: 4020850262319224382}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.02679585, z: -0, w: 0.999641}
-  m_LocalPosition: {x: -19.4, y: 0.76, z: -31.77}
+  m_LocalPosition: {x: -20.2, y: 0.894, z: -31.3}
   m_LocalScale: {x: 0.80550337, y: 1.1219527, z: 0.80550337}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -67770,7 +67770,7 @@ GameObject:
   - component: {fileID: 400633062600137795}
   - component: {fileID: 5293069530826502208}
   - component: {fileID: 1053800826260915016}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: OJO_UNO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67813,7 +67813,7 @@ GameObject:
   - component: {fileID: 8266664062268088824}
   - component: {fileID: 1662987375221667816}
   - component: {fileID: 8799221530156718116}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: PERSONAJE
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -67850,52 +67850,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 702380351}
     m_Modifications:
     - target: {fileID: 770386306200630474, guid: 428dcd7f1b64362469d5637d82fc454c, type: 3}
-      propertyPath: accuracy
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 770386306200630474, guid: 428dcd7f1b64362469d5637d82fc454c, type: 3}
       propertyPath: ammoText
       value: 
       objectReference: {fileID: 1197830702}
-    - target: {fileID: 770386306200630474, guid: 428dcd7f1b64362469d5637d82fc454c, type: 3}
-      propertyPath: fireRate
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 770386306200630474, guid: 428dcd7f1b64362469d5637d82fc454c, type: 3}
-      propertyPath: fireType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 770386306200630474, guid: 428dcd7f1b64362469d5637d82fc454c, type: 3}
-      propertyPath: currentAmmo
-      value: 1000
-      objectReference: {fileID: 0}
-    - target: {fileID: 770386306200630474, guid: 428dcd7f1b64362469d5637d82fc454c, type: 3}
-      propertyPath: timeToReload
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 770386306200630474, guid: 428dcd7f1b64362469d5637d82fc454c, type: 3}
-      propertyPath: currentMaxAmmo
-      value: 1000
-      objectReference: {fileID: 0}
-    - target: {fileID: 2500640602348056727, guid: 428dcd7f1b64362469d5637d82fc454c, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: b865a31f0860e7f4ab8e8d5f67b0b6c3, type: 2}
-    - target: {fileID: 2853218080009296719, guid: 428dcd7f1b64362469d5637d82fc454c, type: 3}
-      propertyPath: m_Icon
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2853218080009296719, guid: 428dcd7f1b64362469d5637d82fc454c, type: 3}
       propertyPath: m_Name
       value: AutomaticRifle
-      objectReference: {fileID: 0}
-    - target: {fileID: 2853218080009296719, guid: 428dcd7f1b64362469d5637d82fc454c, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3553998058583441390, guid: 428dcd7f1b64362469d5637d82fc454c, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.14006446
       objectReference: {fileID: 0}
     - target: {fileID: 3553998058583441390, guid: 428dcd7f1b64362469d5637d82fc454c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -67936,26 +67896,6 @@ PrefabInstance:
     - target: {fileID: 3553998058583441390, guid: 428dcd7f1b64362469d5637d82fc454c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4412661679372711731, guid: 428dcd7f1b64362469d5637d82fc454c, type: 3}
-      propertyPath: m_Size.x
-      value: 4.5858517
-      objectReference: {fileID: 0}
-    - target: {fileID: 4412661679372711731, guid: 428dcd7f1b64362469d5637d82fc454c, type: 3}
-      propertyPath: m_Size.y
-      value: 2.6386797
-      objectReference: {fileID: 0}
-    - target: {fileID: 4412661679372711731, guid: 428dcd7f1b64362469d5637d82fc454c, type: 3}
-      propertyPath: m_Center.x
-      value: 0.2733039
-      objectReference: {fileID: 0}
-    - target: {fileID: 4412661679372711731, guid: 428dcd7f1b64362469d5637d82fc454c, type: 3}
-      propertyPath: m_Center.y
-      value: -0.052575305
-      objectReference: {fileID: 0}
-    - target: {fileID: 4412661679372711731, guid: 428dcd7f1b64362469d5637d82fc454c, type: 3}
-      propertyPath: m_Center.z
-      value: -8.2376717e-10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -68205,7 +68145,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 698447980808421114}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -68455,7 +68395,7 @@ GameObject:
   - component: {fileID: 6989276862755037491}
   - component: {fileID: 8209733106658518811}
   - component: {fileID: 5901930718614588054}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: SOMBRERO_DOS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68533,18 +68473,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: HandGun
       objectReference: {fileID: 0}
-    - target: {fileID: 490867459071394241, guid: b9ab7f5bbe8b97643b0206d0d97a961f, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3668049739074689379, guid: b9ab7f5bbe8b97643b0206d0d97a961f, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.14006448
-      objectReference: {fileID: 0}
-    - target: {fileID: 3668049739074689379, guid: b9ab7f5bbe8b97643b0206d0d97a961f, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.1060518
-      objectReference: {fileID: 0}
     - target: {fileID: 3668049739074689379, guid: b9ab7f5bbe8b97643b0206d0d97a961f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.08
@@ -68585,34 +68513,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5809680151397781720, guid: b9ab7f5bbe8b97643b0206d0d97a961f, type: 3}
-      propertyPath: m_Size.x
-      value: 3.1540244
-      objectReference: {fileID: 0}
-    - target: {fileID: 5809680151397781720, guid: b9ab7f5bbe8b97643b0206d0d97a961f, type: 3}
-      propertyPath: m_Size.y
-      value: 3.295554
-      objectReference: {fileID: 0}
-    - target: {fileID: 5809680151397781720, guid: b9ab7f5bbe8b97643b0206d0d97a961f, type: 3}
-      propertyPath: m_Center.x
-      value: 0.06179008
-      objectReference: {fileID: 0}
-    - target: {fileID: 5809680151397781720, guid: b9ab7f5bbe8b97643b0206d0d97a961f, type: 3}
-      propertyPath: m_Center.y
-      value: 0.06341276
-      objectReference: {fileID: 0}
-    - target: {fileID: 5809680151397781720, guid: b9ab7f5bbe8b97643b0206d0d97a961f, type: 3}
-      propertyPath: m_Center.z
-      value: 2.3333036e-10
-      objectReference: {fileID: 0}
     - target: {fileID: 7436396845094120905, guid: b9ab7f5bbe8b97643b0206d0d97a961f, type: 3}
       propertyPath: ammoText
       value: 
       objectReference: {fileID: 1197830702}
-    - target: {fileID: 7436396845094120905, guid: b9ab7f5bbe8b97643b0206d0d97a961f, type: 3}
-      propertyPath: fireType
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -68698,7 +68602,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2159118357630420335}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: WeaponHolder
   m_TagString: Untagged
   m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
@@ -68798,7 +68702,7 @@ GameObject:
   - component: {fileID: 3459175102387130145}
   - component: {fileID: 1153570462212721325}
   - component: {fileID: 4114837024400274981}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Cuerpo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68878,7 +68782,7 @@ GameObject:
   - component: {fileID: 8667216451591771273}
   - component: {fileID: 3329908967244616825}
   - component: {fileID: 3167091656280822887}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: OJO_DOS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68968,7 +68872,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5917735027804138980}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: PointRay
   m_TagString: Untagged
   m_Icon: {fileID: 7422848464349959988, guid: 0000000000000000d000000000000000, type: 0}
@@ -69298,7 +69202,7 @@ GameObject:
   - component: {fileID: 5195102791375221382}
   - component: {fileID: 5536958365685302865}
   - component: {fileID: 1329550555823679741}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
